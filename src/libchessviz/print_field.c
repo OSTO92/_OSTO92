@@ -14,3 +14,4 @@ void print_field(char chess_field[8][8])
     }
     printf("  a b c d e f g h\n\n");
 }
+

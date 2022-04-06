@@ -52,3 +52,4 @@ int check_move(char tmp, char figure)
    
     return 0;
 }
+
