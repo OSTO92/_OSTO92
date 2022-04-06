@@ -57,3 +57,4 @@ CTEST (check_move_kings, white_king)
 {
     ASSERT_EQUAL(0, check_move(chess_field[7][4], 'K'));
 }
+
