@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Check codestyle
-        run: git ls-files *.{c,h} | xargs clang-format -i --verbose src/main/main.c src/libchessviz/chessviz.c src/libchessviz/chessviz.h && git diff --exit-code
+        run: git ls-files *.{c,h} | xargs clang-format -i --verbose src/chessviz/main.c src/libchessviz src/libchessviz && git diff --exit-code
 
       - name: Build application
         run: make
